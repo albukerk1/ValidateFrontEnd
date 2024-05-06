@@ -1,0 +1,49 @@
+body {
+    background-color: #f2f2f2; /* Fundo cinza claro */
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px; /* Cantos arredondados */
+    padding: 20px;
+    width: 300px;
+    margin: 50px auto; /* Centralizado na página */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+label {
+    color: #333; /* Cor do texto */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Cantos arredondados */
+    box-sizing: border-box; /* Garante que o padding não altere o tamanho total */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    font-size: 16px;
+}
+
+button {
+    background-color: #ffd700; /* Cor de fundo dourada */
+    color: #333; /* Cor do texto */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Cor de fundo dourada mais clara quando hover */
+}
